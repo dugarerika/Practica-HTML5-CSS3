@@ -8,9 +8,6 @@
     z-index: 100;
 }
 
-/* input{
-    top 0px;
-} */
 .navbar-list {
     display: inline-block;
     display: flex;
@@ -23,12 +20,12 @@
 }
 
 .navbar-item {
-        display: inline-block;
- 
+    display: inline-block;
+    margin-right: 5px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10px;
+
     line-height: var(--navbar-height);
     height: var(--navbar-height);
     align-self: flex-end;
