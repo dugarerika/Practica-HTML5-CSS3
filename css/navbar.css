@@ -8,6 +8,9 @@
     z-index: 100;
 }
 
+/* input{
+    top 0px;
+} */
 .navbar-list {
     display: inline-block;
     display: flex;
@@ -20,11 +23,25 @@
 }
 
 .navbar-item {
-    list-style: none;;
+        display: inline-block;
+ 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     margin-right: 10px;
     line-height: var(--navbar-height);
     height: var(--navbar-height);
     align-self: flex-end;
+}
+
+.navbar-item-right{
+    display: inline-block;
+    list-style: none;
+    line-height: var(--navbar-height);
+    height: var(--navbar-height);
+    justify-content: space-between;
+
+    
 }
 
 .navbar-item-img{
