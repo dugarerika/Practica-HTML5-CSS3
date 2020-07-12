@@ -74,3 +74,12 @@
 .navbar-image{
     border: none;
 }
+
+img {
+    flex: 1;
+    width: 198px;
+    height: 198px;
+    border-radius: 10px;
+    flex-shrink: 3;
+    border: solid 1px;
+}
